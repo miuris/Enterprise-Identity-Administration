@@ -13,7 +13,7 @@
 | ✅ [Phase 1 – Tenant Administration](docs/phase-01-tenant-administration.md) | Complete |
 | ✅ [Phase 2 – User Lifecycle Management](docs/phase-02-user-lifecycle.md) | Complete |
 | ✅ [Phase 3 – Group Administration](docs/phase-03-group-administration.md) | Complete |
-| 🟡 [Phase 4 – Authentication & Security](docs/phase-04-authentication-security.md) | In Progress |
+| 🟡 [Phase 4 – Phase 4 – Identity Protection with Conditional Access](docs/phase-04-authentication-security.md) | In Progress |
 | ⬜ [Phase 5 – Identity Governance](docs/phase-05-identity-governance.md) | Planned |
 | ⬜ [Phase 6 – Enterprise Automation](docs/phase-06-enterprise-automation.md) | Planned |
 
