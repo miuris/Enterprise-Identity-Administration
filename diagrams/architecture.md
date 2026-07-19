@@ -10,15 +10,16 @@ This is how identities flow through an enterprise Microsoft environment.
      Users       Groups       Guest Users
         │           │              │
         ▼           ▼              ▼
-  Microsoft 365   Security    Distribution
-     Groups        Groups         Lists
-             │
-             ▼
-        Microsoft Teams
+Collaboration & Access Resources
+
+├── Microsoft 365 Groups
+├── Security Groups
+├── Distribution Lists
+└── Microsoft Teams
 
 ────────────────────────────────
 
-        Identity Protection
+        Security Controls
 
                ▼
 
@@ -30,14 +31,19 @@ This is how identities flow through an enterprise Microsoft environment.
 
                ▼
 
-      Identity Governance
+     Identity Governance
 
-      ┌─────────┴──────────┐
-
-      ▼                    ▼
-
- Access Reviews         PIM
+├── Access Reviews
+├── Entitlement Management
+├── Lifecycle Workflows
+└── Privileged Identity Management
 
                ▼
 
-       Global Administrators
+      Administrative Role-Based Access Control (RBAC)
+
+├── Global Administrator
+├── User Administrator
+├── Groups Administrator
+├── Security Administrator
+└── Identity Governance Administrator
