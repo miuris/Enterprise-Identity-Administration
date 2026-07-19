@@ -1,92 +1,113 @@
-# 🛡️ Enterprise Identity Administration
+# 🛡 Enterprise Identity Administration
 
-Enterprise implementation of Microsoft 365 and Microsoft Entra ID simulating identity administration for a mid-sized organization.
-
----
-
-## Business Scenario
-
-Apex Manufacturing is migrating to Microsoft 365 and Microsoft Entra ID to modernize identity management, strengthen security, and streamline user lifecycle administration.
-
-This project documents the complete implementation of an enterprise identity environment using Microsoft cloud technologies.
+> Enterprise Microsoft 365 and Microsoft Entra ID implementation simulating identity administration, authentication, governance, and access management in a production environment.
 
 ---
 
-## Environment
+# Project Overview
 
-- Microsoft 365 Business Premium
+This project demonstrates how enterprise identity administrators manage users, groups, authentication, external collaboration, and governance within Microsoft 365 and Microsoft Entra ID.
+
+The environment simulates a production organization named **Apex Manufacturing** where identity lifecycle management follows least privilege and Zero Trust principles.
+
+---
+
+# Technologies
+
 - Microsoft Entra ID
-- Exchange Online
-- Microsoft Teams
+- Microsoft 365 Admin Center
+- Microsoft Teams Admin Center
+- Exchange Admin Center
+- Microsoft Graph
+- Azure RBAC
+- Zero Trust
+- Identity Governance
 
 ---
 
-## Project Goals
+# Business Scenario
 
-- Provision users
-- Configure Microsoft 365 Groups
-- Implement Security Groups
-- Configure Distribution Lists
-- Manage Guest Users
-- Configure MFA
-- Deploy Conditional Access
-- Implement RBAC
-- Configure Identity Governance
-- Automate administration using PowerShell and Microsoft Graph
+Apex Manufacturing is onboarding a new Identity Administrator responsible for managing employee identities, Microsoft 365 collaboration, security groups, guest access, and enterprise authentication.
+
+The goal is to establish secure identity governance while following Microsoft's identity management best practices.
 
 ---
 
-# Project Progress
+# Project Roadmap
 
 | Phase | Status |
-|--------|--------|
-| Tenant Deployment | ✅ |
-| User Provisioning | ✅ |
-| Microsoft 365 Groups | ✅ |
-| Security Groups | ✅ |
-| Distribution Lists | ✅ |
-| Guest Users | ✅ |
-| MFA | ⏳ |
-| Conditional Access | ⏳ |
-| RBAC | ⏳ |
-| Identity Governance | ⏳ |
-| Automation | ⏳ |
+|--------|---------|
+| Tenant Configuration | ✅ Complete |
+| User Provisioning | ✅ Complete |
+| Microsoft 365 Groups | ✅ Complete |
+| Security Groups | ✅ Complete |
+| Distribution Lists | ✅ Complete |
+| Guest User Collaboration | ✅ Complete |
+| MFA Configuration | ⏳ Next |
+| Conditional Access | ⏳ Planned |
+| Administrative Roles | ⏳ Planned |
+| RBAC | ⏳ Planned |
+| Identity Governance | ⏳ Planned |
+| Access Reviews | ⏳ Planned |
+| Privileged Identity Management | ⏳ Planned |
 
 ---
 
-# Skills Demonstrated
+# Completed Labs
 
-- Microsoft 365 Administration
-- Microsoft Entra ID
-- Identity Lifecycle Management
-- Exchange Online
-- Microsoft Teams Administration
-- Security Group Management
-- Guest Identity (B2B)
-- Identity Governance
-- Zero Trust Concepts
+- Tenant Administration
+- User Provisioning
+- Microsoft 365 Groups
+- Security Groups
+- Distribution Lists
+- Guest User Invitation
 
 ---
 
-## Repository Structure
+# Repository Structure
 
-```text
+```
 assets/
-diagrams/
 docs/
+diagrams/
 scripts/
 ```
 
 ---
 
-## Current Architecture
+# Screenshots
 
-*(Architecture diagram coming soon.)*
+| Lab | Screenshot |
+|------|------------|
+| Tenant Overview | assets/01-tenant-overview.png |
+| Users | assets/02-users-created.png |
+| User Properties | assets/03-user-properties.png |
+| Microsoft 365 Group | assets/04-m365-group.png |
+| Security Group | assets/05-security-group.png |
+| Distribution List | assets/06-distribution-list.png |
+| Guest User | assets/07-guest-user.png |
 
 ---
 
-## Author
+# Security Concepts Demonstrated
+
+- Identity Lifecycle Management
+- Least Privilege
+- Role-Based Access Control (RBAC)
+- Microsoft 365 Administration
+- External Collaboration
+- Group-Based Access
+- Identity Governance
+- Zero Trust
+
+---
+
+# Author
 
 **Miuris Gutierrez**
 
-Identity & Access Security | Microsoft Entra ID | Microsoft 365 | IAM
+CompTIA Security+
+
+Microsoft SC-900
+
+Microsoft SC-300 (In Progress)
