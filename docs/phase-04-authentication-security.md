@@ -49,7 +49,7 @@ Completed the following tasks:
 <img width="1743" height="904" alt="04-authentication-methods" src="https://github.com/user-attachments/assets/27fabd02-db16-456f-a67d-cca9319f3df9" />
 
 
-**Figure 1. Microsoft Entra authentication method policies supporting modern authentication.**
+**Figure 4.1. Microsoft Entra authentication method policies supporting modern authentication.**
 
 ---
 
@@ -59,7 +59,7 @@ Completed the following tasks:
 
 
 
-**Figure 2. Authentication method registration status for the Test User.**
+**Figure 4.2. Authentication method registration status for the Test User.**
 
 ---
 
@@ -68,7 +68,7 @@ Completed the following tasks:
 <img width="1754" height="929" alt="04-security-defaults-enabled" src="https://github.com/user-attachments/assets/5a3e2dde-f2d4-4ed6-b886-5d4a1d1c99b3" />
 
 
-**Figure 3. Baseline tenant protection is reviewed before migrating to Conditional Access.**
+**Figure 4.3. Baseline tenant protection is reviewed before migrating to Conditional Access.**
 
 ---
 
@@ -77,7 +77,7 @@ Completed the following tasks:
 <img width="1460" height="756" alt="04-conditional-access-policy-created" src="https://github.com/user-attachments/assets/2957c146-af6e-442f-bc7c-5dbcb6e8a31a" />
 
 
-**Figure 4. Conditional Access policy requiring multifactor authentication for the Test User across all cloud resources.**
+**Figure 4.4. Conditional Access policy requiring multifactor authentication for the Test User across all cloud resources.**
 
 ---
 
