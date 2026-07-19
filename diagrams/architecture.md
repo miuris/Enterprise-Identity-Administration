@@ -1,29 +1,43 @@
-# Enterprise Identity Architecture
+# Enterprise Microsoft Identity Platform
 This is how identities flow through an enterprise Microsoft environment.
 
-```mermaid
-flowchart TD
+                     Employees
+                          │
+                          ▼
+               Microsoft Entra ID
+        ┌───────────┼────────────┐
+        ▼           ▼            ▼
+     Users       Groups       Guest Users
+        │           │              │
+        ▼           ▼              ▼
+  Microsoft 365   Security    Distribution
+     Groups        Groups         Lists
+             │
+             ▼
+        Microsoft Teams
 
-    A[Employees] --> B[Microsoft Entra ID]
+────────────────────────────────
 
-    B --> C[Microsoft 365 Admin Center]
-    B --> D[Microsoft Teams]
-    B --> E[Exchange Online]
-    B --> F[Security Groups]
-    B --> G[Microsoft 365 Groups]
-    B --> H[Distribution Lists]
+        Identity Protection
 
-    I[Guest Users] --> B
+               ▼
 
-    B --> J[Conditional Access]
-    B --> K[Multi-Factor Authentication]
-    B --> L[RBAC Roles]
-    B --> M[Identity Governance]
+     Conditional Access
 
-    M --> N[Access Reviews]
-    M --> O[Privileged Identity Management]
+               ▼
 
-    L --> P[Administrators]
+        Multi-Factor Auth
 
-    P --> C
-```
+               ▼
+
+      Identity Governance
+
+      ┌─────────┴──────────┐
+
+      ▼                    ▼
+
+ Access Reviews         PIM
+
+               ▼
+
+       Global Administrators
