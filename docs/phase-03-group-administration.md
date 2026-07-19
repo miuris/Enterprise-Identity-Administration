@@ -41,35 +41,35 @@ Completed the following tasks:
 ### Microsoft 365 Group
 
 <img width="1452" height="940" alt="03-M365-Group-Creation-Review" src="https://github.com/user-attachments/assets/54ca8764-02fc-4a53-ac84-854175c39b9c" />
-*Figure 1. Microsoft 365 Group (IAM Engineers) configured to provide enterprise collaboration services, including Microsoft Teams, Outlook, SharePoint, and Planner.*
+*Figure 3.1. Microsoft 365 Group (IAM Engineers) configured to provide enterprise collaboration services, including Microsoft Teams, Outlook, SharePoint, and Planner.*
 
 ---
 
 ### Security Group
 
 <img width="1866" height="907" alt="07-Security-Group-Created" src="https://github.com/user-attachments/assets/b8794be0-7ac5-4a63-b67c-1ef92831e53a" />
-*Figure 2. Security Group created to support centralized authorization and future RBAC implementations.*
+*Figure 3.2. Security Group created to support centralized authorization and future RBAC implementations.*
 
 ---
 
 ### Distribution List
 
 <img width="1874" height="935" alt="09-Distribution-List-Created" src="https://github.com/user-attachments/assets/4ed7ca40-7bc0-4f15-8de5-fb98181e9f3a" />
-*Figure 3. Distribution List configured for organization-wide email communication without providing authorization to enterprise resources.*
+*Figure 3.3. Distribution List configured for organization-wide email communication without providing authorization to enterprise resources.*
 
 ---
 
 ### Guest User Collaboration
 
 <img width="1162" height="935" alt="10-Guest-User-Assignments" src="https://github.com/user-attachments/assets/1c8244c2-8f73-44bc-9070-9cee5edcf70e" />
-*Figure 4. External B2B guest invitation assigned to the IAM Engineers Microsoft 365 Group.*
+*Figure 3.4. External B2B guest invitation assigned to the IAM Engineers Microsoft 365 Group.*
 
 ---
 
 ### Microsoft Teams Integration
 
 <img width="1784" height="938" alt="04-IAM-Engineers-Team-Created" src="https://github.com/user-attachments/assets/5dc3f1e9-66a5-4a87-90bf-4c1bc357d362" />
-*Figure 5. Microsoft Teams workspace automatically created after provisioning the Microsoft 365 Group.*
+*Figure 4.5. Microsoft Teams workspace automatically created after provisioning the Microsoft 365 Group.*
 
 ---
 
