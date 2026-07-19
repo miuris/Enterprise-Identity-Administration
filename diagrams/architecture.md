@@ -139,7 +139,7 @@ flowchart TD
     E --> E1[Security Policy Administration]
     F --> F1[Governance Configuration]
 
-    classDef planned fill:#f3f4f6,stroke:#6b7280,color:#374151,stroke-dasharray: 5 5
+    classDef planned fill:#d1fae5,stroke:#047857,color:#064e3b
     class A,B,C,D,E,F,B1,C1,D1,E1,F1 planned
 ```
 
@@ -161,8 +161,8 @@ flowchart TD
     classDef completed fill:#d1fae5,stroke:#047857,color:#064e3b
     classDef planned fill:#f3f4f6,stroke:#6b7280,color:#374151,stroke-dasharray: 5 5
 
-    class A,B,C,D completed
-    class E,F,G planned
+    class A,B,C,D,E completed
+    class ,F,G planned
 ```
 
 **Completed:** Tenant administration, user provisioning, group administration, guest collaboration, authentication method review, Conditional Access, and MFA enforcement.
