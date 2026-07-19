@@ -1,148 +1,113 @@
-# 🛡️ Kimble Glass
+# Enterprise Identity Administration
 
-# Enterprise Identity Architecture
+Enterprise implementation of a Microsoft Entra ID and Microsoft 365 identity platform for the fictional organization **Kimble Glass**.
 
-> Enterprise implementation of Microsoft 365 and Microsoft Entra ID simulating identity administration, authentication, authorization, governance, and automation within a production environment.
-
----
-
-# 🔄 Enterprise Implementation Progress
-
-| Phase | Status |
-|--------|--------|
-| ✅ [Phase 1 – Tenant Administration](docs/phase-01-tenant-administration.md) | Complete |
-| ✅ [Phase 2 – User Lifecycle Management](docs/phase-02-user-lifecycle.md) | Complete |
-| ✅ [Phase 3 – Group Administration](docs/phase-03-group-administration.md) | Complete |
-| ✅ [Phase 4 – Phase 4 – Identity Protection with Conditional Access](docs/phase-04-authentication-security.md) | Complete |
-| 🟡 [Phase 5 – Identity Governance](docs/phase-05-identity-governance.md) | In Progress |
-| ⬜ [Phase 6 – Enterprise Automation](docs/phase-06-enterprise-automation.md) | Planned |
+This repository documents the deployment of core Identity and Access Management (IAM) capabilities, including tenant administration, user lifecycle management, group administration, Conditional Access, Multi-Factor Authentication, and future identity governance initiatives.
 
 ---
 
-# 🏢 Business Overview
+# 🏢 Company Overview
 
-## Organization
-
-**Kimble Glass**
+**Organization:** Kimble Glass
 
 **Industry:** Manufacturing
 
 **Headquarters:** Charlotte, North Carolina
 
-**Employees:** 850
+**Employees:** ~850
 
----
-
-## ☁️ Cloud Environment
+### Cloud Environment
 
 - Microsoft Entra ID
 - Microsoft 365 Business Premium
-- Microsoft Teams
 - Exchange Online
+- Microsoft Teams
 - SharePoint Online
 
 ---
 
-# 📖 Business Case
+# 🎯 Business Objective
 
-Kimble Glass is a fictional manufacturing company modernizing its identity platform by migrating to Microsoft Entra ID and Microsoft 365.
+Modernize the organization's identity platform by implementing secure identity lifecycle management using Microsoft Entra ID and Microsoft 365.
 
-As the Identity Administrator, I am responsible for designing and implementing a secure identity platform supporting:
-
-- Identity Lifecycle Management
-- Authentication
-- Authorization
-- Collaboration
-- Identity Governance
-- Zero Trust
-
-This repository documents each implementation phase as if deployed within a real enterprise environment.
-
----
-
-# 💻 Technologies & Tools
-
-- Microsoft Entra ID
-- Microsoft 365 Admin Center
-- Microsoft Teams Admin Center
-- Exchange Admin Center
-- Microsoft Graph
-- PowerShell
-- Azure RBAC
-- Microsoft Defender
-- Zero Trust Architecture
-
----
-
-# 🌐 Enterprise Identity Platform
-
-See the complete architecture below.
-
-➡️ **[Enterprise Identity Architecture](diagrams/architecture.md)**
-
----
-
-# 📸 Implementation Screenshots
-
-| Phase | Screenshot |
-|---------|------------|
-| Tenant Deployment | [Tenant Dashboard](assets/01-tenant-dashboard.png) |
-| User Provisioning | [User Provisioning](assets/02-user-provisioning.png) |
-| Microsoft 365 Groups | [Microsoft 365 Group](assets/03-m365-group-membership.png) |
-| Microsoft Teams | [Teams Provisioning](assets/04-teams-admin-center.png) |
-| Security Groups | [Security Group](assets/05-security-group.png) |
-| Distribution Lists | [Distribution List](assets/06-distribution-list.png) |
-| Guest Collaboration | [Guest User](assets/07-guest-user.png) |
-
----
-
-# 📚 Documentation
-
-Each implementation phase is documented individually.
-
-| Documentation |
-|--------------|
-| 📄 [Phase 1 – Tenant Administration](docs/phase-01-tenant-administration.md) |
-| 📄 [Phase 2 – User Lifecycle Management](docs/phase-02-user-lifecycle.md) |
-| 📄 [Phase 3 – Group Administration](docs/phase-03-group-administration.md) |
-| 📄 [Phase 4 –  Identity Protection with Conditional Access](docs/phase-04-authentication-security.md) |
-| 📄 [Phase 5 – Identity Governance](docs/phase-05-identity-governance.md) |
-| 📄 [Phase 6 – Enterprise Automation](docs/phase-06-enterprise-automation.md) |
-
----
-
-# ⚡ PowerShell & Microsoft Graph
-
-Automation scripts will be added as implementation progresses.
-
-Examples include:
-
-- Bulk User Provisioning
-- Group Management
-- License Assignment
-- Microsoft Graph API
-- Reporting
-- RBAC Automation
-
----
-
-# 🎯 Repository Goals
-
-This repository demonstrates practical Identity & Access Management experience by documenting an end-to-end Microsoft identity implementation using Microsoft Entra ID and Microsoft 365.
-
-The project showcases enterprise administration through:
+Project goals include:
 
 - Identity Administration
 - User Lifecycle Management
-- Microsoft 365 Administration
-- Authentication & Authorization
+- Group Management
+- Identity Protection
+- Conditional Access
+- Multi-Factor Authentication
 - Role-Based Access Control (RBAC)
-- Guest Collaboration (B2B)
+- Identity Governance
+- Microsoft Graph Automation
+
+---
+
+# 💻 Technologies
+
+### Microsoft
+
+- Microsoft Entra ID
+- Microsoft 365 Admin Center
+- Exchange Online
+- Microsoft Teams
+- Microsoft Graph
+- PowerShell
+
+### Identity & Security
+
+- Conditional Access
+- Multi-Factor Authentication
+- RBAC
 - Identity Governance
 - Zero Trust
-- Enterprise Documentation
-- PowerShell Automation
-- Microsoft Graph Automation
+
+---
+
+# 🏗 Enterprise Architecture
+
+View the architecture diagrams below.
+
+- 🏢 [Enterprise Identity Architecture](diagrams/enterprise-identity-architecture.md)
+- 🛡️ [Conditional Access Authentication Flow](diagrams/conditional-access-flow.md)
+- 🔑 Administrative RBAC *(Coming Soon)*
+- 📋 Identity Governance *(Coming Soon)*
+- ⚙️ Microsoft Graph Automation *(Coming Soon)*
+
+---
+
+# 📚 Enterprise Implementation Guide
+
+Each phase documents the business requirement, implementation approach, architecture decisions, screenshots, lessons learned, and skills demonstrated throughout the enterprise identity deployment.
+
+| Implementation | Status |
+|---------------|:------:|
+| 🏢 Tenant Administration | ✅ |
+| 👤 User Lifecycle Management | ✅ |
+| 👥 Group Administration | ✅ |
+| 🛡️ Conditional Access & MFA | ✅ |
+| 🔑 Administrative RBAC | 🚧 |
+| 📋 Identity Governance | 🚧 |
+| ⚙️ Microsoft Graph Automation | 🚧 |
+
+### Documentation
+
+- 🏢 [Tenant Administration](docs/phase-01-tenant-administration.md)
+- 👤 [User Lifecycle Management](docs/phase-02-user-lifecycle.md)
+- 👥 [Group Administration](docs/phase-03-group-administration.md)
+- 🛡️ [Conditional Access & MFA](docs/phase-04-conditional-access.md)
+
+---
+
+# ⚡ Automation Roadmap
+
+Future automation will demonstrate identity administration using:
+
+- Microsoft Graph
+- Microsoft Graph PowerShell SDK
+- PowerShell
+- Microsoft Entra APIs
 
 ---
 
@@ -151,36 +116,44 @@ The project showcases enterprise administration through:
 ```text
 Enterprise-Identity-Administration
 │
+├── README.md
+│
 ├── assets
-│   ├── screenshots
-│   └── images
+│   ├── phase-01/
+│   ├── phase-02/
+│   ├── phase-03/
+│   ├── phase-04/
+│   ├── phase-05/
+│   ├── phase-06/
+│   └── phase-07/
 │
 ├── diagrams
-│   └── architecture.md
+│   ├── enterprise-identity-architecture.md
+│   ├── conditional-access-flow.md
+│   ├── administrative-rbac.md
+│   ├── identity-governance.md
+│   └── graph-automation.md
 │
 ├── docs
 │   ├── phase-01-tenant-administration.md
 │   ├── phase-02-user-lifecycle.md
 │   ├── phase-03-group-administration.md
-│   ├── phase-04- identity-protection-with-conditional-access.md
-│   ├── phase-05-identity-governance.md
-│   └── phase-06-enterprise-automation.md
+│   ├── phase-04-conditional-access.md
+│   ├── phase-05-administrative-rbac.md
+│   ├── phase-06-identity-governance.md
+│   └── phase-07-microsoft-graph-automation.md
 │
-├── scripts
-│
-└── README.md
+└── scripts
+    ├── powershell/
+    └── microsoft-graph/
 ```
 
 ---
 
-## 👩🏽‍💻 About the Engineer
+# 👩🏻‍💻 About the Engineer
 
-**Miuris Gutierrez**
+**M. Gutierrez**
 
-**Identity & Access Management Portfolio**
+Identity & Access Management | Microsoft Entra ID | Microsoft 365 | Security+ | SC-900
 
-CompTIA Security+ • Microsoft SC-900 • Microsoft SC-300 *(In Progress)*
-
----
-
-> This repository is continuously updated as additional enterprise identity capabilities are implemented.
+This repository demonstrates practical enterprise identity implementation through hands-on Microsoft technologies and documented architectural decisions.
