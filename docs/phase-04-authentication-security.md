@@ -1,22 +1,20 @@
-# Phase 4 – Authentication & Security
+# Phase 4 – Identity Protection with Conditional Access
 
 > **Phase Summary**
 >
-> Authentication controls were implemented to strengthen identity security through Multi-Factor Authentication, password management, authentication methods, and monitoring of user sign-in activity.
+> Implemented modern identity protection by transitioning from Security Defaults to Conditional Access and creating a policy requiring multifactor authentication for a targeted enterprise user.
 
 ---
 
 ## 🎯 Objective
 
-Implement authentication controls to improve identity security and reduce the risk of unauthorized access.
+Protect enterprise identities by implementing Conditional Access policies that require multifactor authentication before access is granted.
 
 ---
 
 ## 🏢 Business Requirement
 
-Kimble Glass requires stronger authentication controls to protect employee identities and reduce the risk of credential compromise.
-
-This implementation introduces identity verification mechanisms beyond passwords while improving visibility into authentication events.
+Kimble Glass requires stronger identity protection than baseline Security Defaults can provide. To support a growing organization, granular Conditional Access policies were implemented to enforce multifactor authentication for targeted users while preparing the tenant for future Zero Trust initiatives.
 
 ---
 
@@ -24,72 +22,89 @@ This implementation introduces identity verification mechanisms beyond passwords
 
 Completed the following tasks:
 
-- Enabled Multi-Factor Authentication
-- Reviewed Authentication Methods
-- Configured password management settings
-- Reviewed Self-Service Password Reset
-- Validated authentication configuration
-- Reviewed Microsoft Entra sign-in logs
+- Reviewed tenant authentication method policies
+- Evaluated available authentication methods
+- Reviewed user authentication method registration
+- Documented Security Defaults configuration
+- Transitioned from Security Defaults to Conditional Access
+- Created Conditional Access policy
+- Targeted Test User
+- Required multifactor authentication
+- Applied policy to all cloud resources
+- Successfully enabled policy
+
+> **Implementation Note**
+>
+> In production environments, Conditional Access policies are commonly deployed in **Report-only** mode before enforcement to validate policy behavior and reduce the risk of unintentionally affecting users. For this isolated lab environment, the policy was enabled directly because it targeted only the **Test User** account, allowing the configuration to be safely validated without impacting administrative access.
 
 ---
 
 ## 📸 Implementation Evidence
+---
 
-### Multi-Factor Authentication
+## 📸 Implementation Evidence
 
-![MFA](../assets/phase-04/04-mfa.png)
+### Authentication Method Policies
 
-*Figure 1. MFA enabled for enterprise identity protection.*
+<img width="1743" height="904" alt="04-authentication-methods" src="https://github.com/user-attachments/assets/27fabd02-db16-456f-a67d-cca9319f3df9" />
+
+
+**Figure 1. Microsoft Entra authentication method policies supporting modern authentication.**
 
 ---
 
-### Authentication Methods
+### User Authentication Methods
 
-![Authentication Methods](../assets/phase-04/04-authentication-methods.png)
+<img width="1703" height="809" alt="04-user-authentication-methods" src="https://github.com/user-attachments/assets/b3dbbff0-2dfb-4c44-b75b-bc2dc3d85db1" />
 
-*Figure 2. Authentication methods available for enterprise identities.*
 
----
 
-### Password Management
-
-![Password Policies](../assets/phase-04/04-password-policy.png)
-
-*Figure 3. Password management settings reviewed.*
+**Figure 2. Authentication method registration status for the Test User.**
 
 ---
 
-### Sign-in Logs
+### Security Defaults
 
-![Sign-in Logs](../assets/phase-04/04-signin-logs.png)
+<img width="1754" height="929" alt="04-security-defaults-enabled" src="https://github.com/user-attachments/assets/5a3e2dde-f2d4-4ed6-b886-5d4a1d1c99b3" />
 
-*Figure 4. Authentication events reviewed within Microsoft Entra ID.*
+
+**Figure 3. Baseline tenant protection is reviewed before migrating to Conditional Access.**
+
+---
+
+### Conditional Access Policy
+
+<img width="1460" height="756" alt="04-conditional-access-policy-created" src="https://github.com/user-attachments/assets/2957c146-af6e-442f-bc7c-5dbcb6e8a31a" />
+
+
+**Figure 4. Conditional Access policy requiring multifactor authentication for the Test User across all cloud resources.**
 
 ---
 
 ## 🤔 What Surprised Me
 
-Before completing this phase, I viewed Multi-Factor Authentication as simply entering a verification code after a password.
+I initially expected multifactor authentication to be enabled directly on a user account. During implementation, I learned that Microsoft recommends enforcing MFA through Conditional Access policies rather than relying on legacy per-user MFA.
 
-Implementing authentication controls helped me understand that Microsoft Entra ID supports multiple authentication methods—including Microsoft Authenticator, FIDO2 security keys, passkeys, and Temporary Access Pass (TAP)—allowing organizations to choose authentication strategies based on their security requirements.
+I also discovered that Security Defaults and Conditional Access cannot coexist because they both enforce authentication policies. Transitioning to Conditional Access provides organizations with significantly greater flexibility by allowing authentication requirements to be scoped to specific users, applications, locations, and risk conditions.
 
 ---
 
 ## 🔑 Key IAM Concept
 
-Authentication verifies **who a user is** before access is granted.
+Conditional Access is Microsoft's policy engine for identity protection.
 
-Implementing layered authentication controls such as MFA significantly reduces the risk of compromised credentials while supporting Zero Trust principles.
+Rather than enabling security features individually for each account, administrators define centralized policies that evaluate users, applications, authentication methods, and access conditions before granting access.
 
 ---
 
 ## 💡 Skills Demonstrated
 
 - Microsoft Entra ID
-- Identity Security
+- Conditional Access
+- Identity Protection
 - Multi-Factor Authentication (MFA)
 - Authentication Methods
-- Password Management
-- Identity Protection
-- Sign-in Monitoring
+- Identity Security
 - Zero Trust
+- Access Policies
+- Enterprise Identity Administration
