@@ -83,6 +83,14 @@ Understanding these differences reinforced that selecting the appropriate group 
 
 ---
 
+## 📊 Group Type Comparison
+
+| Group Type | Primary Purpose | Can Assign Permissions | Collaboration Features |
+|------------|-----------------|------------------------|------------------------|
+| Microsoft 365 Group | Collaboration | ✅ Yes | ✅ Teams, Outlook, SharePoint, Planner |
+| Security Group | Access Management | ✅ Yes | ❌ No |
+| Distribution List | Email Communication | ❌ No | ❌ No |
+
 ## 🔑 Key IAM Concept
 
 Group-based access management simplifies administration by assigning permissions to groups rather than individual users.
