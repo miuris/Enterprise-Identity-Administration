@@ -35,7 +35,7 @@ Completed the following RBAC configuration tasks:
 <img width="1749" height="936" alt="05-built-in-roles" src="https://github.com/user-attachments/assets/f224bdc0-68e7-4b50-ae27-e526508f7b69" />
 
 
-**Figure 1. Microsoft Entra provides specialized built-in administrative roles that support delegated administration while enforcing the Principle of Least Privilege.**
+**Figure 5.1. Microsoft Entra provides specialized built-in administrative roles that support delegated administration while enforcing the Principle of Least Privilege.**
 
 ---
 
@@ -44,7 +44,7 @@ Completed the following RBAC configuration tasks:
 <img width="1742" height="935" alt="Screenshot 2026-07-19 175038" src="https://github.com/user-attachments/assets/660991e6-1681-4e42-adfc-d609830c99e1" />
 
 
-**Figure 2. The User Administrator role delegates identity lifecycle management responsibilities without granting unrestricted tenant administration.**
+**Figure 5.2. The User Administrator role delegates identity lifecycle management responsibilities without granting unrestricted tenant administration.**
 
 ---
 
@@ -53,7 +53,7 @@ Completed the following RBAC configuration tasks:
 <img width="1478" height="545" alt="image" src="https://github.com/user-attachments/assets/a3774fdc-31b4-4e4e-aa25-e7ff71d76abc" />
 
 
-**Figure 3. The User Administrator role was assigned to the Test User using Microsoft Entra Role-Based Access Control (RBAC).**
+**Figure 5.3. The User Administrator role was assigned to the Test User using Microsoft Entra Role-Based Access Control (RBAC).**
 
 ---
 
@@ -62,7 +62,7 @@ Completed the following RBAC configuration tasks:
 <img width="1451" height="627" alt="05-role-assignment" src="https://github.com/user-attachments/assets/8b4670a5-3833-4629-9256-cfa6a9ced34a" />
 
 
-**Figure 4. The Test User successfully received the User Administrator role through delegated administration.**
+**Figure 5.4. The Test User successfully received the User Administrator role through delegated administration.**
 
 ---
 
@@ -71,7 +71,7 @@ Completed the following RBAC configuration tasks:
 <img width="1476" height="930" alt="05-global-administrator-role" src="https://github.com/user-attachments/assets/d8a28e89-1bf8-4c6b-97e6-01f495f5f755" />
 
 
-**Figure 5. Global Administrator provides unrestricted administrative access across the Microsoft Entra tenant and should be assigned only to trusted administrators.**
+**Figure 5.5. Global Administrator provides unrestricted administrative access across the Microsoft Entra tenant and should be assigned only to trusted administrators.**
 
 ---
 
