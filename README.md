@@ -102,14 +102,16 @@ Each phase documents the business requirement, implementation approach, architec
 
 ---
 
-# ⚡ Automation Roadmap
+## ⚡ Identity Operations & Automation
 
-Future automation will demonstrate identity administration using:
+Phase 7 implements identity administration and reporting using:
 
 - Microsoft Graph
 - Microsoft Graph PowerShell SDK
 - PowerShell
 - Microsoft Entra APIs
+
+The implementation includes reusable scripts for retrieving users and groups, identifying licensed and disabled accounts, and exporting directory reports to CSV.
 
 ---
 
@@ -133,7 +135,7 @@ Enterprise-Identity-Administration
 │   ├── enterprise-identity-architecture.md
 │   ├── conditional-access-flow.md
 │   ├── administrative-rbac.md
-│   └── graph-automation.md
+│   └── identity-automation-workflow.md
 │
 ├── docs
 │   ├── phase-01-tenant-administration.md
@@ -142,11 +144,16 @@ Enterprise-Identity-Administration
 │   ├── phase-04-conditional-access.md
 │   ├── phase-05-administrative-rbac.md
 │   ├── phase-06-identity-governance.md
-│   └── phase-07-microsoft-graph-automation.md
+│   └── phase-07-identity-operations-automation.md
 │
-└── scripts
-    ├── powershell/
-    └── microsoft-graph/
+└── ├── scripts
+│   ├── README.md
+│   ├── 01-Connect-MgGraph.ps1
+│   ├── 02-Get-AllUsers.ps1
+│   ├── 03-Get-AllGroups.ps1
+│   ├── 04-Export-DirectoryReport.ps1
+│   ├── 05-DisabledUsersReport.ps1
+│   └── 06-LicensedUsersReport.ps1
 ```
 
 ---
@@ -158,3 +165,5 @@ Enterprise-Identity-Administration
 Identity & Access Management | Microsoft Entra ID | Microsoft 365 | Security+ | SC-900
 
 This repository demonstrates practical enterprise identity implementation through hands-on Microsoft technologies and documented architectural decisions.
+
+
