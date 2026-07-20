@@ -72,7 +72,7 @@ View the architecture diagrams below.
 - 🏢 [Enterprise Identity Architecture](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/architecture.md)
 - 🛡️ [Conditional Access Authentication Flow](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/conditional-access.md)
 - 🔑 [Administrative RBAC](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/administrative-rbac.md)
-- ⚙️ Microsoft Graph Automation *(Coming Soon)*
+- ⚙️ [Microsoft Graph Automation](diagrams/identity-automation-workflow)
 
 ---
 
