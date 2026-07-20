@@ -98,6 +98,7 @@ Each phase documents the business requirement, implementation approach, architec
 - 🛡️ [Conditional Access & MFA](docs/phase-04-conditional-access.md)
 - 🔑 [Administrative RBAC](docs/phase-05-administrative-rbac.md)
 - 📋 [Identity Governance](docs/phase-06-identity-governance.md)
+- ⚙️ [Microsoft Graph Automation](docs/phase-07-microsoft-graph-automation.md)
 
 ---
 
