@@ -69,9 +69,9 @@ Project goals include:
 
 View the architecture diagrams below.
 
-- 🏢 [Enterprise Identity Architecture](diagrams/enterprise-identity-architecture.md)
-- 🛡️ [Conditional Access Authentication Flow](diagrams/conditional-access-flow.md)
-- 🔑 [Administrative RBAC]([administrative-rbac.md](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/administrative-rbac.md)
+- 🏢 [Enterprise Identity Architecture](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/architecture.md)
+- 🛡️ [Conditional Access Authentication Flow](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/conditional-access.md)
+- 🔑 [Administrative RBAC](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/administrative-rbac.md)
 - ⚙️ Microsoft Graph Automation *(Coming Soon)*
 
 ---
@@ -130,7 +130,6 @@ Enterprise-Identity-Administration
 │   ├── enterprise-identity-architecture.md
 │   ├── conditional-access-flow.md
 │   ├── administrative-rbac.md
-│   ├── identity-governance.md
 │   └── graph-automation.md
 │
 ├── docs
@@ -149,7 +148,7 @@ Enterprise-Identity-Administration
 
 ---
 
-# 👩🏻‍💻 About the Engineer
+# 🧠 About the Engineer
 
 **M. Gutierrez**
 
