@@ -166,7 +166,7 @@ This script collection provides a reusable foundation for future identity admini
 *Figure 7.8 Licensed Users administrative report generated using Microsoft Graph PowerShell.*
 
 
-<img width="1139" height="806" alt="7 8" src="https://github.com/user-attachments/assets/56dcd169-487e-4e71-b788-b63c0a8fdcfa" />
+<img width="1047" height="247" alt="Screenshot 2026-07-19 221148" src="https://github.com/user-attachments/assets/e6dba4cb-f825-4979-8d87-7ed5846ac776" />
 
 *Figure 7.9 PowerShell automation script library used throughout this implementation.*
 
