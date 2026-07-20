@@ -71,8 +71,7 @@ View the architecture diagrams below.
 
 - 🏢 [Enterprise Identity Architecture](diagrams/enterprise-identity-architecture.md)
 - 🛡️ [Conditional Access Authentication Flow](diagrams/conditional-access-flow.md)
-- 🔑 Administrative RBAC *(Coming Soon)*
-- 📋 Identity Governance *(Coming Soon)*
+- 🔑 [Administrative RBAC](administrative-rbac.md)
 - ⚙️ Microsoft Graph Automation *(Coming Soon)*
 
 ---
@@ -87,8 +86,8 @@ Each phase documents the business requirement, implementation approach, architec
 | 👤 User Lifecycle Management | ✅ |
 | 👥 Group Administration | ✅ |
 | 🛡️ Conditional Access & MFA | ✅ |
-| 🔑 Administrative RBAC | 🚧 |
-| 📋 Identity Governance | 🚧 |
+| 🔑 Administrative RBAC | ✅ |
+| 📋 Identity Governance |  |✅
 | ⚙️ Microsoft Graph Automation | 🚧 |
 
 ### Documentation
