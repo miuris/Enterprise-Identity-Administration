@@ -40,7 +40,7 @@ Project goals include:
 - Multi-Factor Authentication
 - Role-Based Access Control (RBAC)
 - Identity Governance
-- Microsoft Graph Automation
+- Identity Operations & Automation
 
 ---
 
@@ -52,8 +52,7 @@ Project goals include:
 - Microsoft 365 Admin Center
 - Exchange Online
 - Microsoft Teams
-- Microsoft Graph
-- PowerShell
+- Microsoft Graph PowerShell SDK
 
 ### Identity & Security
 
@@ -72,7 +71,7 @@ View the architecture diagrams below.
 - 🏢 [Enterprise Identity Architecture](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/architecture.md)
 - 🛡️ [Conditional Access Authentication Flow](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/conditional-access.md)
 - 🔑 [Administrative RBAC](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/administrative-rbac.md)
-- ⚙️ [Microsoft Graph Automation](diagrams/identity-automation-workflow)
+- ⚙️ [Identity Operations & Automation](diagrams/identity-automation-workflow)
 
 ---
 
@@ -88,7 +87,7 @@ Each phase documents the business requirement, implementation approach, architec
 | 🛡️ Conditional Access & MFA | ✅ |
 | 🔑 Administrative RBAC | ✅ |
 | 📋 Identity Governance | ✅ |
-| ⚙️ Microsoft Graph Automation | ✅ |
+| ⚙️ Identity Operations & Automation | ✅ |
 
 ### Documentation
 
@@ -98,7 +97,7 @@ Each phase documents the business requirement, implementation approach, architec
 - 🛡️ [Conditional Access & MFA](docs/phase-04-conditional-access.md)
 - 🔑 [Administrative RBAC](docs/phase-05-administrative-rbac.md)
 - 📋 [Identity Governance](docs/phase-06-identity-governance.md)
-- ⚙️ [Microsoft Graph Automation](docs/phase-07-microsoft-graph-automation.md)
+- ⚙️ [Identity Operations & Automation](docs/phase-07-identity-operations-automation.md)
 
 ---
 
@@ -158,12 +157,7 @@ Enterprise-Identity-Administration
 
 ---
 
-# 🧠 About the Engineer
-
-**M. Gutierrez**
-
-Identity & Access Management | Microsoft Entra ID | Microsoft 365 | Security+ | SC-900
+# 🧠 About This Implementation
 
 This repository demonstrates practical enterprise identity implementation through hands-on Microsoft technologies and documented architectural decisions.
-
 
