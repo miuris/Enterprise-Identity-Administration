@@ -96,6 +96,8 @@ Each phase documents the business requirement, implementation approach, architec
 - 👤 [User Lifecycle Management](docs/phase-02-user-lifecycle.md)
 - 👥 [Group Administration](docs/phase-03-group-administration.md)
 - 🛡️ [Conditional Access & MFA](docs/phase-04-conditional-access.md)
+- 🔑 [Administrative RBAC](docs/phase-05-administrative-rbac.md)
+- 📋 [Identity Governance](docs/phase-06-identity-governance.md)
 
 ---
 
