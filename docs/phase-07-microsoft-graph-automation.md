@@ -146,8 +146,6 @@ This script collection provides a reusable foundation for future identity admini
 
 <img width="812" height="212" alt="image" src="https://github.com/user-attachments/assets/bd671796-4f9c-4a97-afe8-992ef5c5f9b6" />
 
-<img width="1047" height="247" alt="image" src="https://github.com/user-attachments/assets/e1bd132c-365e-43c8-9d1a-87af6c18c66d" />
-
 *Figure 7.5 Successfully exported Microsoft Entra directory users to CSV.*
 
 
