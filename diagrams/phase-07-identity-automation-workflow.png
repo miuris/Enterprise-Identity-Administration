@@ -1,0 +1,40 @@
+                    Identity Operations & Automation
+
+                 ┌─────────────────────────────┐
+                 │ Microsoft Entra ID Tenant   │
+                 │ Kimble Glass                │
+                 └──────────────┬──────────────┘
+                                │
+                                │ Authenticates
+                                ▼
+                 ┌─────────────────────────────┐
+                 │ Microsoft Graph PowerShell  │
+                 │ SDK                         │
+                 └──────────────┬──────────────┘
+                                │
+                                │ Microsoft Graph API
+                                ▼
+                 ┌─────────────────────────────┐
+                 │ Identity Queries            │
+                 ├─────────────────────────────┤
+                 │ • Users                     │
+                 │ • Groups                    │
+                 │ • Licenses                  │
+                 │ • Account Status            │
+                 └──────────────┬──────────────┘
+                                │
+                                │ PowerShell Automation
+                                ▼
+                 ┌─────────────────────────────┐
+                 │ Administrative Reports      │
+                 ├─────────────────────────────┤
+                 │ • Users Report              │
+                 │ • Licensed Users            │
+                 │ • Disabled Users            │
+                 └──────────────┬──────────────┘
+                                │
+                                ▼
+                 ┌─────────────────────────────┐
+                 │ Identity Operations         │
+                 │ Reporting & Administration  │
+                 └─────────────────────────────┘
