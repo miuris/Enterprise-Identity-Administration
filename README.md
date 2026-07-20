@@ -71,7 +71,7 @@ View the architecture diagrams below.
 
 - 🏢 [Enterprise Identity Architecture](diagrams/enterprise-identity-architecture.md)
 - 🛡️ [Conditional Access Authentication Flow](diagrams/conditional-access-flow.md)
-- 🔑 [Administrative RBAC](administrative-rbac.md)
+- 🔑 [Administrative RBAC]([administrative-rbac.md](https://github.com/miuris/Enterprise-Identity-Administration/blob/main/diagrams/administrative-rbac.md)
 - ⚙️ Microsoft Graph Automation *(Coming Soon)*
 
 ---
@@ -87,7 +87,7 @@ Each phase documents the business requirement, implementation approach, architec
 | 👥 Group Administration | ✅ |
 | 🛡️ Conditional Access & MFA | ✅ |
 | 🔑 Administrative RBAC | ✅ |
-| 📋 Identity Governance |  |✅
+| 📋 Identity Governance | ✅ |
 | ⚙️ Microsoft Graph Automation | 🚧 |
 
 ### Documentation
